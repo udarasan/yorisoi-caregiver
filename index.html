@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!--    ======================================================-->
+    <!--    develop by : https://github.com/udarasan-->
+    <!--    date : 2022.11.08-->
+    <!--    ======================================================-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicons -->
+    <!--
+        <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+        <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+        <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+        <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+        <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+        <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/hover-min.css" rel="stylesheet" media="all">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="./css/carousel.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+    <link href="./css/animate.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div id="preloader"></div>
+<script>
+    var loader = document.getElementById('preloader');
+    window.addEventListener("load", function () {
+        loader.style.display = "none";
+    })
+</script>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="Eighth navbar example">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo-yorisoi.png"></a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse" id="navbarsExample07" style="">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">インドネシア校</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ネパール校</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">フィリピンコールセンター</a>
+                    </li>
+
+                </ul>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <button class="btn bg-newOrange customBtn"><a href="tel:03-5812-8321"></a><strong
+                                class=" text-light">03-5812-8321</strong></button>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">お問い合わせ</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <!--Carousel-->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+
+            <div class="carousel-item active bg-dark">
+                <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                     <rect width="100%" height="100%" fill="#777"/>
+                 </svg>-->
+
+
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Another example headline.</h1>
+                        <p>Some representative placeholder content for the second slide of the carousel.</p>
+                        <p><a class="btn btn-lg bg-newOrange text-light" href="#">Learn more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item ">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                     aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <rect width="100%" height="100%" fill="#777"/>
+                </svg>
+
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Another example headline.</h1>
+                        <p>Some representative placeholder content for the second slide of the carousel.</p>
+                        <p><a class="btn btn-lg bg-newOrange text-light" href="#">Learn more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item bg-dark ">
+                <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                     <rect width="100%" height="100%" fill="#777"/>
+                 </svg>-->
+
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Another example headline.</h1>
+                        <p>Some representative placeholder content for the second slide of the carousel.</p>
+                        <p><a class="btn btn-lg bg-newOrange text-light" href="#">Learn more</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--Feature-->
+    <div class="bg-light">
+        <div class="1 container py-3 ">
+            <div class="py-3  text-center animate__animated animate__fadeInUp ">
+                <h1 class="display-5 fw-bold " id="feature">Feature</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">Features of our company</p>
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-3 pb-5  animate__animated animate__fadeInUp">
+
+                <div class="col">
+                    <div class="card shadow-sm ">
+                        <img src="img/indonesia05.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3>運営方針</h3>
+                            <p class="card-text">介護施設での利用者の方々に常に「よりそえる」ような介護のプロフェッショナル人材を養成します。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm ">
+                        <img src="img/indonesia04.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3>意識の高い学生</h3>
+                            <p class="card-text">９５％の学生が「一般社団法人しふく福祉人材協会」が実施するオンラインでの介護福祉士合格プログラムに自費で参加しています。</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm ">
+                        <img src="img/indonesia03.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3>授業内容</h3>
+                            <p class="card-text">日本語（Ｎ４～Ｎ２）／介護の日本語／特定技能評価試験対策／日本でのビジネスマナー／介護の現場等。</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm ">
+                        <img src="img/indonesia04.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3>講師</h3>
+                            <p class="card-text">
+                                日本で３年間技能実習生として介護に従事したスタッフや、日本語、介護の現場等ではオンラインで日本人の介護福祉士／日本語教師が担当しています。</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="">
+                <iframe width="100%" height="400px"
+                        src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <!--Staff-->
+    <div class="bg-light">
+        <div class="2 container py-3">
+            <div class="py-3 text-center" data-aos="fade-up"
+                 data-aos-anchor-placement="bottom-bottom">
+                <h1 class="display-5 fw-bold" id="staff">Students</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">学生の特徴</p>
+                </div>
+            </div>
+            <div class="pb-5">
+                <div class="d-flex align-items-center p-3 my-1 text-white bg-newOrange rounded shadow-sm "
+                     data-aos="flip-up"
+                     data-aos-duration="2000">
+                    <img class="me-3" src="img/icons8-bookmark-24.png">
+                    <div class="lh-1">
+                        <h1 class="h6 mb-0 text-white lh-1 animate__backInLeft">本当に介護が好きな学生</h1>
+
+                    </div>
+                </div>
+                <div class="d-flex align-items-center p-3  my-1 text-white bg-newOrange rounded shadow-sm"
+                     data-aos="flip-up"
+                     data-aos-duration="2000">
+                    <img class="me-3" src="img/icons8-bookmark-24.png">
+                    <div class="lh-1">
+                        <h1 class="h6 mb-0 text-white lh-1">本気で介護福祉士を目指す学生</h1>
+
+                    </div>
+                </div>
+                <div class="d-flex align-items-center p-3 my-1 text-white bg-newOrange rounded shadow-sm"
+                     data-aos="flip-up"
+                     data-aos-duration="2000">
+                    <img class="me-3" src="img/icons8-bookmark-24.png">
+                    <div class="lh-1">
+                        <h1 class="h6 mb-0 text-white lh-1">長期で日本で働くことを目指す学生</h1>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!--Company-->
+    <div class="bg-primary ppp pb-5">
+        <div class="3 container py-3">
+            <div class=" py-5 text-center" data-aos="fade-up"
+                 data-aos-anchor-placement="bottom-bottom">
+                <h1 class="display-5 fw-bold text-light" id="company">Company</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4 text-light">会社概要</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="card m-3" style="width: 18rem;">
+                    <img src="img/certificate.jpeg" class="card-img-top" alt="...">
+                </div>
+                <div class="card m-3" style="width: 18rem;">
+                    <img src="img/certificate2.jpeg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12" data-aos="fade-right"
+                     data-aos-anchor="#example-anchor"
+                     data-aos-offset="2000"
+                     data-aos-duration="2000">
+                    <div class="py-3 accordion accordion-flush" id="accordionFlushExampleOne">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                    <strong>学校名</strong>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExampleOne">
+                                <div class="accordion-body">LPK BAHASA JEPANG YORISOI CAREGIVER INDONESIA
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                    <strong> 会社名 </strong>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExampleOne">
+                                <div class="accordion-body">PT. ASA BESTARI KASIH AMERTA
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12" data-aos="fade-left"
+                     data-aos-anchor="#example-anchor"
+                     data-aos-offset="2000"
+                     data-aos-duration="2000">
+                    <div class="py-3 accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingEight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseEight" aria-expanded="false"
+                                        aria-controls="flush-collapseEight">
+                                    <strong>CEO </strong>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseEight" class="accordion-collapse collapse"
+                                 aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Jessica
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingNine">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseNine" aria-expanded="false"
+                                        aria-controls="flush-collapseNine">
+                                    <strong>所在地 </strong>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseNine" class="accordion-collapse collapse"
+                                 aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">〒 57222　Margorejo RT.43 RW.04, Puro,　Karangmalang, Sragen,
+                                    Jawa Tengah、Indonesia
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <!--Partner-->
+    <div class="bg-newOrange pb-5">
+        <div class="3 container py-3">
+            <div class=" py-5 text-center" data-aos="fade-up"
+                 data-aos-anchor-placement="bottom-bottom">
+                <h1 class="display-5 fw-bold text-light" id="partner">PARTNER</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4 text-light">会社概要</p>
+                </div>
+            </div>
+            <div class="row">
+                <p class="lead mb-4 text-light " data-aos="fade-up">
+                    YORISOI介護日本語学校は、株式会社イーストブリッジ（東京都台東区上野1-11-9）と卒業生の就職斡旋に関して、専属パートナーシップ契約を締結しています。
+                    YORISOI学生の面接等のご依頼、ご相談は下記迄ご連絡お願いします。</p>
+                <div class="col-lg-6 col-sm-12" data-aos="fade-right"
+                     data-aos-anchor="#example-anchor"
+                     data-aos-offset="2000"
+                     data-aos-duration="2000">
+                    <div class="py-3 accordion accordion-flush" id="accordionFlushExampleFive">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                        aria-controls="flush-collapseFive">
+                                    <strong>学校名</strong>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExampleFive">
+                                <div class="accordion-body">LPK BAHASA JEPANG YORISOI CAREGIVER INDONESIA
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12" data-aos="fade-left"
+                     data-aos-anchor="#example-anchor"
+                     data-aos-offset="2000"
+                     data-aos-duration="2000">
+                    <div class="py-3 accordion accordion-flush" id="accordionFlushExampleSix">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                        aria-controls="flush-collapseSix">
+                                    <strong>CEO </strong>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                 aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Jessica
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <!--Contact-->
+    <div class="bg" data-aos="fade-up"
+         data-aos-anchor-placement="center-bottom"
+         data-aos-duration="1500">
+        <div class="4 container py-3 pt-5">
+            <div class="pb-5">
+                <div class="px-4 text-center">
+                    <div class="col-lg-12 mx-auto">
+                        <p class="lead mb-4">お気軽にお問い合わせください</p>
+                        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                            <button type="button" class="btn bg-newOrange btn-lg px-4 gap-3 customBtn text-light">
+                                03-5812-8321
+                            </button>
+                            <button type="button" class="btn btn-outline-secondary btn-lg px-4">お問い合わせ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-muted">© 2022 Company, Inc</p>
+
+            <a href="/"
+               class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+                <img src="img/logo-yorisoi.png" class="bi me-2" height="32">
+                <use xlink:href="#bootstrap"></use>
+                </img>
+            </a>
+
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="#feature" class="nav-link px-2 text-muted">Features</a></li>
+                <li class="nav-item"><a href="#staff" class="nav-link px-2 text-muted">Staff</a></li>
+                <li class="nav-item"><a href="#company" class="nav-link px-2 text-muted">Company</a></li>
+            </ul>
+        </footer>
+    </div>
+    <!-- Back to top button -->
+    <button class="btn btn-sm bg-newOrange rounded-circle position-fixed bottom-0 end-0"
+            onclick="scrollToTop()" id="back-to-up">
+        <span class="material-symbols-outlined text-light">
+            arrow_upward
+        </span>
+    </button>
+</main>
+
+<script src="js/aos.js"></script>
+<script>AOS.init();</script>
+<script src="js/main.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

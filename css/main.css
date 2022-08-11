@@ -1,0 +1,37 @@
+.ppp{
+
+    background-image: url('../img/pexels-cowomen-2041629.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #ff8e68;
+}
+::-webkit-scrollbar-thumb {
+    background: #d23700;
+    border-radius:10px;
+}
+::-webkit-scrollbar-thumb:hover {
+
+    background: #555;
+}
+.bg-newOrange{
+    background-color: #d23700;
+}
+.customBtn:hover{
+   background-color: black;
+}
+#back-to-up{
+    margin: 10px;
+}
+#preloader{
+    background: #000000 url('../img/Ellipsis-2s-137px.gif') no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
