@@ -35,3 +35,6 @@
     position: fixed;
     z-index: 100;
 }
+.carousel-item {
+    min-height: calc(100vh - 64px);
+}
