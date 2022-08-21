@@ -36,5 +36,29 @@
     z-index: 100;
 }
 .carousel-item {
-    min-height: calc(100vh - 64px);
+    min-height: 100vh;
 }
+#feature{
+    color: #d23700;
+}
+#staff{
+    color: #d23700;
+}
+#feature-sub{
+    color: #ff8e68;
+}
+
+#staff-sub{
+    color: #ff8e68;
+}
+
+.c{
+    background: #b4b4b4 url('../img/carousel-1.jpg') no-repeat center center;
+}
+.cc{
+    background: #b4b4b4 url('../img/carousel-2.jpg') no-repeat center center;
+}
+.ccc{
+    background: #b4b4b4 url('../img/carousel-3.jpg') no-repeat center center;
+}
+

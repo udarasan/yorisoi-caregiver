@@ -26,6 +26,7 @@
     <link href="./css/carousel.css" rel="stylesheet">
     <link href="./css/main.css" rel="stylesheet">
     <link href="./css/animate.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
 
 </head>
 <body>
@@ -48,25 +49,29 @@
             </button>
 
             <div class="navbar-collapse collapse" id="navbarsExample07" style="">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">インドネシア校</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">ネパール校</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">フィリピンコールセンター</a>
-                    </li>
 
-                </ul>
                 <ul class="navbar-nav mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link text-black fw-semibold" href="#">インドネシア校</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black fw-semibold" href="#">ネパール校</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black fw-semibold" href="#">フィリピンコールセンター</a>
+                        </li>
+
+
                     <li class="nav-item">
-                        <button class="btn bg-newOrange customBtn"><a href="tel:03-5812-8321"></a><strong
-                                class=" text-light">03-5812-8321</strong></button>
+
+                        <button class="btn bg-newOrange customBtn">
+                            <i class="bi bi-telephone-fill text-light"></i>
+                            <strong class=" text-light"><a href="tel:03-5812-8321" style="color: white">03-5812-8321</a></strong>
+                        </button>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">お問い合わせ</a>
+                        <a class="nav-link text-black fw-semibold" href="#">お問い合わせ</a>
                     </li>
 
                 </ul>
@@ -87,42 +92,35 @@
         </div>
         <div class="carousel-inner">
 
-            <div class="carousel-item active bg-dark">
-                <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                      aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                     <rect width="100%" height="100%" fill="#777"/>
-                 </svg>-->
+            <div class="carousel-item active c">
 
 
-                <div class="container">
-                    <div class="carousel-caption">
-                        <h1>Another example headline.</h1>
-                        <p>Some representative placeholder content for the second slide of the carousel.</p>
+
+                <div class="container ">
+                    <div class="carousel-caption ">
+                        <h1 class="fs-1 animate__animated animate__fadeInLeft" >Another example headline.</h1>
+                        <p class="fs-2 animate__animated animate__fadeInRight">Some representative placeholder content for the second slide of the carousel.</p>
                         <p><a class="btn btn-lg bg-newOrange text-light" href="#">Learn more</a></p>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item ">
-                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                     aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <rect width="100%" height="100%" fill="#777"/>
-                </svg>
+            <div class="carousel-item cc">
+
 
                 <div class="container">
                     <div class="carousel-caption">
-                        <h1>Another example headline.</h1>
-                        <p>Some representative placeholder content for the second slide of the carousel.</p>
+                        <h1 class="fs-1 animate__animated animate__fadeInLeft" >Another example headline.</h1>
+                        <p class="fs-2 animate__animated animate__fadeInRight">Some representative placeholder content for the second slide of the carousel.</p>
                         <p><a class="btn btn-lg bg-newOrange text-light" href="#">Learn more</a></p>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item bg-dark ">
+            <div class="carousel-item ccc ">
 
                 <div class="container">
                     <div class="carousel-caption">
-                        <h1>Another example headline.</h1>
-                        <p>Some representative placeholder content for the second slide of the carousel.</p>
-                        <p><a class="btn btn-lg bg-newOrange text-light" href="#">Learn more</a></p>
+                        <h1 class="fs-1 animate__animated animate__fadeInLeft" >Another example headline.</h1>
+                        <p class="fs-2 animate__animated animate__fadeInRight">Some representative placeholder content for the second slide of the carousel.</p><p><a class="btn btn-lg bg-newOrange text-light" href="#">Learn more</a></p>
                     </div>
                 </div>
             </div>
@@ -142,9 +140,9 @@
         <div class="1 container py-3 ">
             <div class="py-3  text-center " data-aos="fade-up"
                  data-aos-anchor-placement="bottom-bottom">
-                <h1 class="display-5 fw-bold " id="feature">Feature</h1>
+                <h1 class="display-5 fw-bold feature " id="feature">Feature</h1>
                 <div class="col-lg-6 mx-auto">
-                    <p class="lead mb-4">Features of our company</p>
+                    <p class="lead mb-4 " id="feature-sub">Features of our company</p>
                 </div>
             </div>
 
@@ -228,7 +226,7 @@
             </div>
             <div class="">
                 <iframe width="100%" height="400px"
-                        src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+               src="https://www.youtube.com/embed/ZEc0YptieSM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                 </iframe>
             </div>
         </div>
@@ -238,9 +236,9 @@
         <div class="2 container py-3">
             <div class="py-3 text-center" data-aos="fade-up"
                  data-aos-anchor-placement="bottom-bottom">
-                <h1 class="display-5 fw-bold" id="staff">Students</h1>
+                <h1 class="display-5 fw-bold staff" id="staff">Students</h1>
                 <div class="col-lg-6 mx-auto">
-                    <p class="lead mb-4">学生の特徴</p>
+                    <p class="lead mb-4 " id="staff-sub">学生の特徴</p>
                 </div>
             </div>
             <div class="pb-5">
@@ -400,8 +398,10 @@
                     <div class="col-lg-12 mx-auto">
                         <p class="lead mb-4">お気軽にお問い合わせください</p>
                         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+
                             <button type="button" class="btn bg-newOrange btn-lg px-4 gap-3 customBtn text-light">
-                                03-5812-8321
+                                <i class="bi bi-telephone-fill text-light"></i>
+                                <a href="tel:03-5812-8321" style="color: white">03-5812-8321</a>
                             </button>
                             <button type="button" class="btn btn-outline-secondary btn-lg px-4">お問い合わせ</button>
                         </div>
